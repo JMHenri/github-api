@@ -18,3 +18,8 @@ app.get('/prinfo', async (req, res) => {
 app.listen(8088, () => {
   console.log('Server listening on port 8088');
 });
+
+//exports
+module.exports = {
+  app
+};

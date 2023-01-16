@@ -1,4 +1,4 @@
-const github = require('../lib/github.js');
+const github = require('./lib/github.js');
 const express = require('express');
 const app = express();
 

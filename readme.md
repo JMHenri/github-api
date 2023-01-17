@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-- Node.js and npm (comes with Node.js)
+- Node.js and npm
 
 ### Installing
 
@@ -30,7 +30,15 @@ You can send a GET request to the API with a `repo` query parameter that contain
 
 ### Running the tests
 
-To run the tests, run the following command:
+To run the unit tests, run the following command:
+
+`npm run test-unit`
+
+To run the functional tests, run the following command:
+
+`npm run test-functional`
+
+To run the all the tests, run the following command:
 
 `npm test`
 

@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "jest -t='test/.*\\.test\\.js$'",
     "test-functional": "jest --testRegex='test/functional.*\\.test\\.js$'",
     "test-unit": "jest --testRegex='test/unit.*\\.test\\.js$'"

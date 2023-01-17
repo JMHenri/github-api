@@ -1,5 +1,5 @@
 const github = require('../lib/github.js');
-const app = require('./app');
+const { app } = require('../app');
 
 app.get('/prinfo', async (req, res) => {
   const repo = req.query.repo;

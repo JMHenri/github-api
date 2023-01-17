@@ -1,5 +1,6 @@
 const request = require('supertest');
 const { app } = require('../../app');
+const routes = require('../../routes/prinfo');
 const github = require('../../lib/github');
 
 jest.mock('../../lib/github');
